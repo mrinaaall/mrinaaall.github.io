@@ -2,7 +2,7 @@
 layout:     post
 title:      "Europe's declining importance in US pharmaceutical markets"
 date:       2022-02-20 12:00:00
-author:     "Matt Christian"
+author:     "Mrinal Soni"
 header-img: "img/cover.jpeg"
 ---
 For decades foreign countries have provided the majority of new Active Pharmaceutical Ingredient (API) manufacturing capacity for US markets. But the *location* of new overseas API manufacturing sites has evolved over time. And while America's well documented dependence on China has been steadily growing, India actually has the largest growth in new API capacity.
@@ -38,19 +38,19 @@ function loadAndDrawChart() {
 
 function drawChart(rawData) {
   var data = google.visualization.arrayToDataTable([
-    ['Region', 'India', 'China', 'Europe', 'US', 'Other' ],
+    ['Region', 'India', 'China', 'Europe', 'United States', 'Other' ],
     ...rawData.map(
-      ({year, India, China, Europe, US, Other}) => {
-        return [year, India, China, Europe, US, Other]
+      ({year, India, China, Europe, 'United States', Other}) => {
+        return [year, India, China, Europe, 'United States', Other]
       }
     )
   ]);
 
   console.log([
-    ['Region', 'India', 'China', 'Europe', 'US', 'Other' ],
+    ['Region', 'India', 'China', 'Europe', 'United States', 'Other' ],
     ...rawData.map(
-      ({year, India, China, Europe, US, Other}) => {
-        return [year, India, China, Europe, US, Other]
+      ({year, India, China, Europe, 'United States', Other}) => {
+        return [year, India, China, Europe, 'United States, Other]
       }
     )
   ])
