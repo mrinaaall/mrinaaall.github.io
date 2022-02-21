@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Blog 2"
+title:      "Blog 1"
 date:       2022-02-21 12:00:00
 author:     "Mrinal Soni"
 header-img: "img/cover.jpeg"
