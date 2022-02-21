@@ -5,9 +5,5 @@ date:       2022-02-21 12:00:00
 author:     "Mrinal Soni"
 header-img: "img/cover.jpeg"
 ---
-Managing risk for rare events.
-<span class="label label-danger">DRAFT</span>
-
-<!--more-->
 
 CONTENT!
