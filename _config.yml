@@ -1,11 +1,11 @@
 # Site settings
-title: Matt Christian
+title: Mrinal Soni
 header-img: ./img/cover.jpeg
-email: matthew.bryan.christian@gmail.com
+email: mrinals98@gmail.com
 
-url: "http://analyticalmeanderings.github.io"
-github_username:  analyticalmeanderings
-linkedin: https://www.linkedin.com/in/matthew-christian-17577641
+url: "https://mrinaaall.github.io/"
+github_username:  mrinaaall
+linkedin: https://www.linkedin.com/in/mrinaaall/
 
 # Build settings
 markdown: kramdown
